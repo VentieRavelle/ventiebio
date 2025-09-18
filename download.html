@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ventie — Портфолио</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+   <link rel="stylesheet" href="style/download.css"/>
+      <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="logo"><i class="fa-solid fa-meteor"></i>Ventie</div>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="about.html">Обо мне</a>
+            <a href="projects.html">Проекты</a>
+            <a href="lyrics.html">Песни</a>
+            <a href="System.html">Детали</a>
+        </nav>
+        <div class="app-menu-container">
+  <button id="app-menu-toggle" class="app-menu-toggle-btn" title="Меню приложений">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+        <circle cx="5" cy="5" r="2" />
+        <circle cx="12" cy="5" r="2" />
+        <circle cx="19" cy="5" r="2" />
+        <circle cx="5" cy="12" r="2" />
+        <circle cx="12" cy="12" r="2" />
+        <circle cx="19" cy="12" r="2" />
+        <circle cx="5" cy="19" r="2" />
+        <circle cx="12" cy="19" r="2" />
+        <circle cx="19" cy="19" r="2" />
+  </svg>
+</button>
+<div id="app-menu" class="app-menu-dropdown">
+    <div class="app-menu-grid">
+        <a href="https://liria.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Liria.jpg" alt="Liria icon" class="app-icon">
+            <span class="app-name">Liria</span>
+        </a>
+        <a href="https://Akirae.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Akirae.jpg" alt="Akirae icon" class="app-icon">
+            <span class="app-name">Akirae</span>
+        </a>
+        <a href="https://Checkm8.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Checkm8.jpg" alt="Checkm8 icon" class="app-icon">
+            <span class="app-name">Checkm8</span>
+        </a>
+        
+        <a href="https://orionengine.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Orion.jpg" alt="Desmusic icon" class="app-icon">
+            <span class="app-name">Orion</span>
+        </a>
+        <a href="https://Liora.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Liora.jpg" alt="Liora icon" class="app-icon">
+            <span class="app-name">Liora</span>
+        </a>
+        <a href="https://Alarium.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Alarium.jpg" alt="EmojisS icon" class="app-icon">
+            <span class="app-name">Alarium</span>
+        </a>
+        
+        <a href="https://vektrion.vercel.app" class="app-item">
+            <img src="assets/Vektrion.jpg" alt="VektrionOS icon" class="app-icon">
+            <span class="app-name">VektrionOS</span>
+        </a>
+        <a href="https://vibra.vercel.app" class="app-item">
+            <img src="assets/Vibra.jpg" alt="Vibra icon" class="app-icon">
+            <span class="app-name">Vibra</span>
+        </a>
+        <a href="https://aetheria.vercel.app" class="app-item">
+            <img src="assets/Aetheria.jpg" alt="Aetheria icon" class="app-icon">
+            <span class="app-name">Aetheria</span>
+        </a>
+        <a href="https://Akiraebot.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Akiraebot.jpg" alt="Liria icon" class="app-icon">
+            <span class="app-name">Akiraebot</span>
+        </a>
+        <a href="https://animewiki.vercel.app" target="_blank" class="app-item">
+            <img src="assets/animewiki.jpg" alt="Liria icon" class="app-icon">
+            <span class="app-name">Animewiki</span>
+        </a>
+        <a href="https://oClock.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Clock.jpg" alt="Liria icon" class="app-icon">
+            <span class="app-name">Clock</span>
+        </a>
+        <a href="https://aestris.vercel.app" target="_blank" class="app-item">
+            <img src="assets/aestris.jpg" alt="Liria icon" class="app-icon">
+            <span class="app-name">Aestris</span>
+        </a>
+        <a href="https://desmusic.vercel.app" target="_blank" class="app-item">
+            <img src="assets/desmusic.jpg" alt="Liria icon" class="app-icon">
+            <span class="app-name">Desmusic</span>
+        </a>
+        <a href="https://inkspire.vercel.app" target="_blank" class="app-item">
+            <img src="assets/inkspire.jpg" alt="Inkspire icon" class="app-icon">
+            <span class="app-name">Inkspire</span>
+        </a>
+        <a href="https://tracekit.vercel.app" target="_blank" class="app-item">
+            <img src="assets/tracekit.jpg" alt="Tracekit icon" class="app-icon">
+            <span class="app-name">Tracekit</span>
+        </a>
+    </div>
+</div>
+    </header>
+
+    <main>
+       <section class="hero">
+        <div class="hero-content">
+            <div class="avatar-container">
+                <img id="avatar-image" src="assets/gif1.gif" alt="Фото Ventie">
+                <button class="avatar-btn" id="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="avatar-btn" id="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+                  <h1>🫧 Veͥntiͣeͫ 𖤓 Rͥaveͦllͭe 🫧</h1>
+                <p id="typewriter-text"></p>
+            <div class="social-links">
+                  <a href="https://github.com/ventieRavelle" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/ventieRavelle" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/ventieRavelle" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://t.me/ventieRavelle" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
+                    <a href="https://www.instagram.com/ventieRavelle" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/ventieRavelle" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.tiktok.com/@ventieRavelle" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <div id="avatar-selection-modal" class="modal">
+        
+        <div class="modal-content">
+            <span class="close-btn close-avatar-modal-btn">&times;</span>
+            <h2>Выберите аватар</h2>
+<div class="filter-controls">
+    <button class="filter-btn active" data-type="static">Аватарки</button>
+    <button class="filter-btn" data-type="gif">GIFы</button>
+</div>
+            <div id="avatar-grid">
+            </div>
+        </div>
+    </div>
+
+      <div class="section-divider"></div>
+ 
+   <section id="rezume">
+  <div class="container">
+    <h2>Мое резюме</h2>
+    <a href="resume/Rezume.pdf" download class="btn-glass">📄 Скачать резюме</a>
+  </div>
+</section>
+
+   
+</main>
+   <div class="section-divider" style="margin-top: 50px;"></div>
+<footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <div class="logo"><i class="fa-solid fa-meteor"></i>Ventie</div>
+                <p>Здесь нет бюрократии и десятков отделов. Есть только полная независимость, личная ответственность и бескомпромиссная преданность делу, чтобы предоставить вам инфраструктуру, которую я создал сам, с нуля, для себя и для вас.</p>
+                <div class="footer-social-links">
+                    <a href="https://github.com/ventieRavelle" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/ventieRavelle" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/ventieRavelle" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://t.me/ventieRavelle" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Навигация</h4>
+                <a href="index.html">Главная</a>
+            <a href="projects.html" target="_blank">Проекты</a>
+            <a href="lyrics.html" target="_blank">Песни</a>
+            <a href="download.html" target="_blank">Скачать</a>
+            <a href="system.html" target="_blank">Детали</a>
+            </div>
+            <div class="footer-col">
+                <h4>Сообщество</h4>
+                <a href="https://t.me/your_main_channel" target="_blank">Основной канал в Telegram</a>
+                <a href="https://t.me/your_dev_channel" target="_blank">Канал по разработке</a>
+                <a href="https://t.me/your_art_channel" target="_blank">Канал по творчеству</a>
+                <a href="https://discord.gg/VDbdgjZx5W" target="_blank">Discord-сервер</a>
+            </div>
+            <div class="footer-col">
+                <h4>Контакты</h4>
+                <p>Email: <a href="mailto:yVentieRavelle@gmail.com">VentieRavelle@gmail.com</a></p>
+                <p>Телефон: <a href="tel:+77711357163">+7 771 135 7163</a></p>
+                <p>Адрес: Annecy, France</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2025 Ventie. Все права защищены.
+        </div>
+    </footer>
+
+    <button id="theme-toggle" class="utility-btn" title="Переключить тему"><i class="fas fa-moon"></i></button>
+    <button id="scrollTopBtn" class="utility-btn"><i class="fas fa-arrow-up"></i></button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js" defer></script>
+<script src="js/download.js" defer></script>
+</body>
+
+</html>

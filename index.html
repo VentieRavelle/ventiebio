@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ventie — Портфолио</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style/index.css"/>
+     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="logo"><i class="fa-solid fa-meteor"></i>Ventie</div>
+        <nav>
+            <a href="about.html">Обо мне</a>
+            <a href="projects.html">Проекты</a>
+            <a href="lyrics.html">Песни</a>
+            <a href="download.html">Скачать</a>
+            <a href="System.html">Детали</a>
+        </nav>
+        <div class="app-menu-container">
+  <button id="app-menu-toggle" class="app-menu-toggle-btn" title="Меню приложений">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+        <circle cx="5" cy="5" r="2" />
+        <circle cx="12" cy="5" r="2" />
+        <circle cx="19" cy="5" r="2" />
+        <circle cx="5" cy="12" r="2" />
+        <circle cx="12" cy="12" r="2" />
+        <circle cx="19" cy="12" r="2" />
+        <circle cx="5" cy="19" r="2" />
+        <circle cx="12" cy="19" r="2" />
+        <circle cx="19" cy="19" r="2" />
+  </svg>
+</button>
+<div id="app-menu" class="app-menu-dropdown">
+    <div class="app-menu-grid">
+        <a href="https://liria.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Liria.jpg" alt="Liria icon" class="app-icon">
+            <span class="app-name">Liria</span>
+        </a>
+        <a href="https://Akirae.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Akirae.jpg" alt="Akirae icon" class="app-icon">
+            <span class="app-name">Akirae</span>
+        </a>
+        <a href="https://Checkm8.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Checkm8.jpg" alt="Checkm8 icon" class="app-icon">
+            <span class="app-name">Checkm8</span>
+        </a>
+        
+        <a href="https://orionengine.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Orion.jpg" alt="Desmusic icon" class="app-icon">
+            <span class="app-name">Orion</span>
+        </a>
+        <a href="https://Liora.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Liora.jpg" alt="Liora icon" class="app-icon">
+            <span class="app-name">Liora</span>
+        </a>
+        <a href="https://Alarium.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Alarium.jpg" alt="EmojisS icon" class="app-icon">
+            <span class="app-name">Alarium</span>
+        </a>
+        
+        <a href="https://vektrion.vercel.app" class="app-item">
+            <img src="assets/Vektrion.jpg" alt="VektrionOS icon" class="app-icon">
+            <span class="app-name">VektrionOS</span>
+        </a>
+        <a href="https://vibra.vercel.app" class="app-item">
+            <img src="assets/Vibra.jpg" alt="Vibra icon" class="app-icon">
+            <span class="app-name">Vibra</span>
+        </a>
+        <a href="https://aetheria.vercel.app" class="app-item">
+            <img src="assets/Aetheria.jpg" alt="Aetheria icon" class="app-icon">
+            <span class="app-name">Aetheria</span>
+        </a>
+        <a href="https://Akiraebot.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Akiraebot.jpg" alt="Liria icon" class="app-icon">
+            <span class="app-name">Akiraebot</span>
+        </a>
+        <a href="https://animewiki.vercel.app" target="_blank" class="app-item">
+            <img src="assets/animewiki.jpg" alt="Liria icon" class="app-icon">
+            <span class="app-name">Animewiki</span>
+        </a>
+        <a href="https://oClock.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Clock.jpg" alt="Liria icon" class="app-icon">
+            <span class="app-name">Clock</span>
+        </a>
+        <a href="https://aestris.vercel.app" target="_blank" class="app-item">
+            <img src="assets/aestris.jpg" alt="Liria icon" class="app-icon">
+            <span class="app-name">Aestris</span>
+        </a>
+        <a href="https://desmusic.vercel.app" target="_blank" class="app-item">
+            <img src="assets/desmusic.jpg" alt="Liria icon" class="app-icon">
+            <span class="app-name">Desmusic</span>
+        </a>
+        <a href="https://inkspire.vercel.app" target="_blank" class="app-item">
+            <img src="assets/inkspire.jpg" alt="Inkspire icon" class="app-icon">
+            <span class="app-name">Inkspire</span>
+        </a>
+        <a href="https://tracekit.vercel.app" target="_blank" class="app-item">
+            <img src="assets/tracekit.jpg" alt="Tracekit icon" class="app-icon">
+            <span class="app-name">Tracekit</span>
+        </a>
+    </div>
+</div>
+    </header>
+
+    <main>
+       <section class="hero">
+        <div class="hero-content">
+            <div class="avatar-container">
+                <img id="avatar-image" src="assets/gif1.gif" alt="Фото Ventie">
+                <button class="avatar-btn" id="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="avatar-btn" id="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+                  <h1>🫧 Veͥntiͣeͫ 𖤓 Rͥaveͦllͭe 🫧</h1>
+                <p id="typewriter-text"></p>
+            <div class="social-links">
+                  <a href="https://github.com/ventieRavelle" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/ventieRavelle" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/ventieRavelle" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://t.me/ventieRavelle" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
+                    <a href="https://www.instagram.com/ventieRavelle" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/ventieRavelle" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.tiktok.com/@ventieRavelle" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+            </div>
+            <div>
+                <p>t.me/ventiedev</p>
+            </div>
+        </div>
+    </section>
+
+    <div id="avatar-selection-modal" class="modal">
+
+        <div class="modal-content">
+            <span class="close-btn close-avatar-modal-btn">&times;</span>
+            <h2>Выберите аватар</h2>
+<div class="filter-controls">
+    <button class="filter-btn active" data-type="static">Аватарки</button>
+    <button class="filter-btn" data-type="gif">GIFы</button>
+</div>
+            <div id="avatar-grid">
+            </div>
+        </div>
+    </div>
+
+        <div class="section-divider"></div>
+
+        <section class="book-section fade-in-section">
+            <div style="margin-bottom: 1.5rem; text-align: center;">
+                <a href="book.html"
+                   style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.6rem 1.2rem; background-color: #0077cc; color: white; font-weight: 700; font-size: 1.1rem; border-radius: 6px; text-decoration: none; transition: background-color 0.3s ease;"
+                   onmouseover="this.style.backgroundColor='#005fa3'"
+                   onmouseout="this.style.backgroundColor='#0077cc'">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="white" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" viewBox="0 0 64 64">
+                        <path d="M2 12 L30 4 L30 60 L2 52 Z" fill="white"/>
+                        <path d="M62 12 L34 4 L34 60 L62 52 Z" fill="white"/>
+                        <line x1="32" y1="4" x2="32" y2="60" stroke="white" stroke-width="3"/>
+                    </svg>
+                    Перейти в мою библиотеку
+                </a>
+            </div>
+        </section>
+
+       <section id="projects" class="fade-in-section">
+    <h2>Мои книги</h2>
+    <div class="projects-grid">
+        <div class="card project">
+            <div class="project-image">
+                <img src="assets/aestrisico2.jpg" alt="Обложка книги Аэстрис">
+            </div>
+            <h3>Аэстрис:Тайны под замком</h3>
+            <div class="card-tags project-tags">
+                <span class="card-tag project-tag">#Мистика</span>
+                <span class="card-tag project-tag">#Приключения</span>
+                <span class="card-tag project-tag">#Темное Фэнтези</span>
+            </div>
+            <div class="project-description">
+                <p>Дата создания - 14.09.2025.</p>
+                <p>Количество глав - .</p>
+                <p>ISBN - .</p>
+            </div>
+            <div class="card-links project-links">
+                <a href="https://author.today/work/489725" target="_blank">Читать</a>
+                <a href="https://aestris.vercel.app" target="_blank">Глоссарий</a>
+            </div>
+        </div>
+
+        <div class="card project">
+            <div class="project-image">
+                <img src="assets/thecurse.jpg" alt="Обложка книги Проклятие созерцателя">
+            </div>
+            <h3>Проклятие созерцателя</h3>
+            <div class="card-tags project-tags">
+                <span class="card-tag project-tag">#Ужасы</span>
+                <span class="card-tag project-tag">#Мистика</span>
+                <span class="card-tag project-tag">#Триллер</span>
+            </div>
+            <div class="project-description">
+                <p>Дата создания - 14.09.2025.</p>
+                <p>Количество глав - .</p>
+                <p>ISBN - .</p>
+            </div>
+            <div class="card-links project-links">
+                <a href="https://author.today/work/488908" target="_blank">Читать</a>
+                <a href="thecurse.vercel.app" target="_blank">Глоссарий</a>
+            </div>
+        </div>
+
+        <div class="projects-grid">
+        <div class="card project">
+            <div class="project-image">
+                <img src="assets/fairytalelast.jpg" alt="Обложка книги Последняя Сказка">
+            </div>
+            <h3>Последняя Сказка</h3>
+            <div class="card-tags project-tags">
+                <span class="card-tag project-tag">#Трагедия</span>
+                <span class="card-tag project-tag">#Приключения</span>
+                <span class="card-tag project-tag">#Фэнтези</span>
+            </div>
+            <div class="project-description">
+                <p>Дата создания - 18.09.2025.</p>
+                <p>Количество глав - .</p>
+                <p>ISBN - .</p>
+            </div>
+            <div class="card-links project-links">
+                <a href="https://author.today/work" target="_blank">Читать</a>
+                <a href="https://lastfairytale.vercel.app" target="_blank">Глоссарий</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section id="badges" class="fade-in-section">
+            <h2>Карточки</h2>
+            <div class="thm-grid">
+                <div class="card thm-card thm-badge-card">
+                    <a href="https://tryhackme.com/p/Ventie" target="_blank" rel="noopener noreferrer">
+                        <img src="https://tryhackme-badges.s3.amazonaws.com/Ventie.png" alt="TryHackMe Badge" />
+                    </a>
+                </div>
+                <div class="card htb-card">
+                    <a href="https://app.hackthebox.com/users/2519629" target="_blank" rel="noopener noreferrer">
+                        <img src="https://www.hackthebox.eu/badge/image/2519629" alt="Hack The Box Badge" />
+                    </a>
+                </div>
+                <div class="card github-card">
+                    <a href="https://github-readme-stats.vercel.app/api?username=ventieRavelle&show_icons=true&theme=buefy" target="_blank" rel="noopener noreferrer">
+                        <img src="https://github-readme-stats.vercel.app/api?username=ventieRavelle&show_icons=true&theme=buefy" alt="GitHub Stats" />
+                    </a>
+                </div>
+                <div class="card chess-card">
+                    <a href="https://www.chess.com/member/VentieRavelle" target="_blank" rel="noopener noreferrer">
+                        <img src="https://chess-stats-card.vercel.app/api/card?user=VentieRavelle&theme=ocean_dark" alt="Chess.com Stats" />
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="history" class="fade-in-section">
+            <h2>История</h2>
+            <div id="history-container" class="timeline"></div>
+        </section>
+
+        <section id="skills" class="fade-in-section">
+            <div class="container">
+                <h2>Навыки</h2>
+                <div class="skills-section">
+                    <div class="skill-card">
+                        <i class="fa-brands fa-python"></i>
+                        <h5>Python</h5>
+                        <p>Разработка ботов, визуальных новелл и автоматизации.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-c-sharp"></i>
+                        <h5>C#</h5>
+                        <p>Основной язык программирования.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-html5"></i>
+                        <h5>HTML5 & CSS3</h5>
+                        <p>Современная вёрстка и адаптивный дизайн сайтов.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-js"></i>
+                        <h5>JavaScript</h5>
+                        <p>Интерактивные элементы и динамика на сайтах.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-pen-nib"></i>
+                        <h5>Писательство</h5>
+                        <p>Сценарии, лор, стихи и тексты для проектов.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-music"></i>
+                        <h5>Музыка</h5>
+                        <p>Создание саундтреков и озвучка для игр и новелл.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="fade-in-section">
+            <h2>Описание</h2>
+            <p>Кратко о сайте Ventie.dev</p>
+            <button id="about-btn" class="btn-glass">Подробнее</button>
+        </section>
+
+        <div id="about-modal" class="modal">
+            <div class="modal-content">
+                <span class="modal-close-btn">&times;</span>
+                <h2>О проекте Ventie</h2>
+                <p>хз не придумал еще</p>
+            </div>
+        </div>
+
+         <section id="contact" class="fade-in-section contact-section">
+            <h2>Контакты</h2>
+         <form class="contact-form" id="contactForm" autocomplete="off">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" required></textarea>
+                            <button class="btn-glass" type="submit">Отправить</button>
+                   <div class="contact-success" id="contactSuccess" style="display:none;">Спасибо за сообщение!</div>
+            </form>
+        </section>
+  </main>
+   <div class="section-divider" style="margin-top: 50px;"></div>
+<footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <div class="logo"><i class="fa-solid fa-meteor"></i>Ventie</div>
+                <p>Здесь нет бюрократии и десятков отделов. Есть только полная независимость, личная ответственность и бескомпромиссная преданность делу, чтобы предоставить вам инфраструктуру, которую я создал сам, с нуля, для себя и для вас.</p>
+                <div class="footer-social-links">
+                    <a href="https://github.com/ventieRavelle" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/ventieRavelle" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/ventieRavelle" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://t.me/ventieRavelle" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Навигация</h4>
+                <a href="index.html">Главная</a>
+            <a href="projects.html" target="_blank">Проекты</a>
+            <a href="lyrics.html" target="_blank">Песни</a>
+            <a href="download.html" target="_blank">Скачать</a>
+            <a href="system.html" target="_blank">Детали</a>
+            </div>
+            <div class="footer-col">
+                <h4>Сообщество</h4>
+                <a href="https://t.me/your_main_channel" target="_blank">Основной канал в Telegram</a>
+                <a href="https://t.me/your_dev_channel" target="_blank">Канал по разработке</a>
+                <a href="https://t.me/your_art_channel" target="_blank">Канал по творчеству</a>
+                <a href="https://discord.gg/VDbdgjZx5W" target="_blank">Discord-сервер</a>
+            </div>
+            <div class="footer-col">
+                <h4>Контакты</h4>
+                <p>Email: <a href="mailto:yVentieRavelle@gmail.com">VentieRavelle@gmail.com</a></p>
+                <p>Телефон: <a href="tel:+77711357163">+7 771 135 7163</a></p>
+                <p>Адрес: Annecy, France</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2025 Ventie. Все права защищены.
+        </div>
+    </footer>
+    <button id="theme-toggle" class="utility-btn" title="Переключить тему"><i class="fas fa-moon"></i></button>
+    <button id="scrollTopBtn" class="utility-btn"><i class="fas fa-arrow-up"></i></button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js" defer></script>
+<script src="js/index.js" defer></script>
+</body>
+
+</html>
+
+
+

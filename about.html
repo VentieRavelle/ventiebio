@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ventie — Портфолио</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="style/about.css" />
+       <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="logo"><i class="fa-solid fa-meteor"></i>Ventie</div>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="projects.html">Проекты</a>
+            <a href="lyrics.html">Песни</a>
+            <a href="download.html">Скачать</a>
+            <a href="System.html">Детали</a>
+        </nav>
+        <div class="app-menu-container">
+  <button id="app-menu-toggle" class="app-menu-toggle-btn" title="Меню приложений">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+        <circle cx="5" cy="5" r="2" />
+        <circle cx="12" cy="5" r="2" />
+        <circle cx="19" cy="5" r="2" />
+        <circle cx="5" cy="12" r="2" />
+        <circle cx="12" cy="12" r="2" />
+        <circle cx="19" cy="12" r="2" />
+        <circle cx="5" cy="19" r="2" />
+        <circle cx="12" cy="19" r="2" />
+        <circle cx="19" cy="19" r="2" />
+  </svg>
+</button>
+<div id="app-menu" class="app-menu-dropdown">
+    <div class="app-menu-grid">
+        <a href="https://liria.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Liria.jpg" alt="Liria icon" class="app-icon">
+            <span class="app-name">Liria</span>
+        </a>
+        <a href="https://Akirae.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Akirae.jpg" alt="Akirae icon" class="app-icon">
+            <span class="app-name">Akirae</span>
+        </a>
+        <a href="https://Checkm8.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Checkm8.jpg" alt="Checkm8 icon" class="app-icon">
+            <span class="app-name">Checkm8</span>
+        </a>
+        
+        <a href="https://orionengine.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Orion.jpg" alt="Desmusic icon" class="app-icon">
+            <span class="app-name">Orion</span>
+        </a>
+        <a href="https://Liora.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Liora.jpg" alt="Liora icon" class="app-icon">
+            <span class="app-name">Liora</span>
+        </a>
+        <a href="https://Alarium.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Alarium.jpg" alt="EmojisS icon" class="app-icon">
+            <span class="app-name">Alarium</span>
+        </a>
+        
+        <a href="https://vektrion.vercel.app" class="app-item">
+            <img src="assets/Vektrion.jpg" alt="VektrionOS icon" class="app-icon">
+            <span class="app-name">VektrionOS</span>
+        </a>
+        <a href="https://vibra.vercel.app" class="app-item">
+            <img src="assets/Vibra.jpg" alt="Vibra icon" class="app-icon">
+            <span class="app-name">Vibra</span>
+        </a>
+        <a href="https://aetheria.vercel.app" class="app-item">
+            <img src="assets/Aetheria.jpg" alt="Aetheria icon" class="app-icon">
+            <span class="app-name">Aetheria</span>
+        </a>
+        <a href="https://Akiraebot.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Akiraebot.jpg" alt="Liria icon" class="app-icon">
+            <span class="app-name">Akiraebot</span>
+        </a>
+        <a href="https://animewiki.vercel.app" target="_blank" class="app-item">
+            <img src="assets/animewiki.jpg" alt="Liria icon" class="app-icon">
+            <span class="app-name">Animewiki</span>
+        </a>
+        <a href="https://oClock.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Clock.jpg" alt="Liria icon" class="app-icon">
+            <span class="app-name">Clock</span>
+        </a>
+        <a href="https://aestris.vercel.app" target="_blank" class="app-item">
+            <img src="assets/aestris.jpg" alt="Liria icon" class="app-icon">
+            <span class="app-name">Aestris</span>
+        </a>
+        <a href="https://desmusic.vercel.app" target="_blank" class="app-item">
+            <img src="assets/desmusic.jpg" alt="Liria icon" class="app-icon">
+            <span class="app-name">Desmusic</span>
+        </a>
+        <a href="https://inkspire.vercel.app" target="_blank" class="app-item">
+            <img src="assets/inkspire.jpg" alt="Inkspire icon" class="app-icon">
+            <span class="app-name">Inkspire</span>
+        </a>
+        <a href="https://tracekit.vercel.app" target="_blank" class="app-item">
+            <img src="assets/tracekit.jpg" alt="Tracekit icon" class="app-icon">
+            <span class="app-name">Tracekit</span>
+        </a>
+    </div>
+</div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="avatar-container">
+                    <img id="avatar-image" src="assets/gif1.gif" alt="Фото Ventie">
+                    <button class="avatar-btn" id="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="avatar-btn" id="next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <h1>🫧 Veͥntiͣeͫ 𖤓 Rͥaveͦllͭe 🫧</h1>
+                <p id="typewriter-text"></p>
+               <div class="social-links">
+    <a href="https://github.com/ventieRavelle" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+    <a href="https://linkedin.com/in/ventieRavelle" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    <a href="https://twitter.com/ventieRavelle" target="_blank" title="X (Twitter)"><i class="fab fa-twitter"></i></a>
+    <a href="https://t.me/ventieRavelle" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
+    <a href="https://www.instagram.com/ventieRavelle" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.youtube.com/ventieRavelle" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+    <a href="https://www.tiktok.com/@ventieRavelle" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+    <a href="https://stackoverflow.com/users/your-id" target="_blank" title="Stack Overflow"><i class="fab fa-stack-overflow"></i></a>
+    <a href="https://dev.to/ventieRavelle" target="_blank" title="DEV Community"><i class="fab fa-dev"></i></a>
+    <a href="https://codepen.io/ventieRavelle" target="_blank" title="CodePen"><i class="fab fa-codepen"></i></a>
+    <a href="https://www.reddit.com/user/ventieRavelle" target="_blank" title="Reddit"><i class="fab fa-reddit"></i></a>
+    <a href="https://gitlab.com/ventieRavelle" target="_blank" title="GitLab"><i class="fab fa-gitlab"></i></a>
+    <a href="https://medium.com/@ventieRavelle" target="_blank" title="Medium"><i class="fab fa-medium"></i></a>
+    <a href="https://www.behance.net/ventieRavelle" target="_blank" title="Behance"><i class="fab fa-behance"></i></a>
+    <a href="https://dribbble.com/ventieRavelle" target="_blank" title="Dribbble"><i class="fab fa-dribbble"></i></a>
+    <a href="https://mastodon.social/@ventieRavelle" target="_blank" title="Mastodon"><i class="fab fa-mastodon"></i></a>
+    <a href="https://www.twitch.tv/ventieRavelle" target="_blank" title="Twitch"><i class="fab fa-twitch"></i></a>
+    <a href="https://www.patreon.com/ventieRavelle" target="_blank" title="Patreon"><i class="fab fa-patreon"></i></a>
+    <a href="https://news.ycombinator.com/user?id=ventieRavelle" target="_blank" title="Hacker News"><i class="fab fa-hacker-news"></i></a>
+    <a href="https://producthunt.com/@ventieRavelle" target="_blank" title="Product Hunt"><i class="fab fa-product-hunt"></i></a>
+</div>
+            </div>
+    
+
+        <div id="avatar-selection-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn close-avatar-modal-btn">&times;</span>
+                <h2>Выберите аватар</h2>
+                <div class="filter-controls">
+                    <button class="filter-btn active" data-type="static">Аватарки</button>
+                    <button class="filter-btn" data-type="gif">GIFы</button>
+                </div>
+                <div id="avatar-grid">
+                </div>
+            </div>
+        </div>
+</section>
+            <div class="section-divider"></div>
+
+<section id="timeline" class="py-16">
+    <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-bold text-center mb-10">Мои увлечения и интересы</h2>
+        <div class="timeline">
+            <div class="timeline-item left">
+                <div class="timeline-point"></div>
+                <div class="timeline-content card">
+                    <h3 class="text-2xl font-semibold text-center mb-4">Путь программиста и веб-разработка</h3>
+                    <p class="text-gray-600 mb-6 text-center">
+                        Моё путешествие в мир кода началось с простого любопытства. Я начинал с Python, затем переключился на JavaScript, который стал моим основным инструментом для создания интерактивных веб-приложений. Для меня программирование — это не просто набор правил, а творческий процесс, где каждая строчка кода — это мазок на цифровом холсте.
+                    </p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>**Любимые технологии:** React, Node.js, Vercel, Tailwind CSS.</li>
+                        <li>**Инструменты:** VS Code, Figma, GitHub.</li>
+                        <li>**Сайты, которые я использую:**
+                            <a href="https://vercel.com" target="_blank" class="text-blue-600 hover:underline">Vercel</a> — для развертывания проектов.
+                            <a href="https://github.com" target="_blank" class="text-blue-600 hover:underline">GitHub</a> — для контроля версий и совместной работы.
+                            <a href="https://codewars.com" target="_blank" class="text-blue-600 hover:underline">Codewars</a> — для прокачки навыков алгоритмизации.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="timeline-point"></div>
+                <div class="timeline-content card">
+                    <h3 class="text-2xl font-semibold text-center mb-4">Аниме и Манга</h3>
+                    <p class="text-gray-600 mb-6 text-center">
+                        Помимо кода, я люблю погружаться в захватывающие миры аниме и манги. Это не только отдых, но и источник вдохновения для создания собственных проектов. Вот несколько тайтлов, которые произвели на меня большое впечатление.
+                    </p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                        <div class="text-center">
+                            <a href="https://myanimelist.net/anime/37999/Seishun_Buta_Yarou_wa_Bunny_Girl_Senpai_no_Yume_wo_Minai" target="_blank">
+                                <img src="assets/proxy-image (17).jpg" class="anime-poster cursor-pointer hover:shadow-xl transition-shadow duration-300">
+                                <p class="font-medium mt-2">Негодяй, которому не снилась девушка-кролик</p>
+                            </a>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://myanimelist.net/anime/35849/Made_in_Abyss" target="_blank">
+                                <img src="assets/proxy-image (18).jpg" class="anime-poster cursor-pointer hover:shadow-xl transition-shadow duration-300">
+                                <p class="font-medium mt-2">Созданный в Бездне</p>
+                            </a>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://myanimelist.net/anime/40061/Ishuzoku_Reviewers" target="_blank">
+                                <img src="assets/proxy-image (19).jpg" class="anime-poster cursor-pointer hover:shadow-xl transition-shadow duration-300">
+                                <p class="font-medium mt-2">Межвидовые обозреватели</p>
+                            </a>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://myanimelist.net/anime/31964/Boku_no_Hero_Academia" target="_blank">
+                                <img src="assets/proxy-image (20).jpg" class="anime-poster cursor-pointer hover:shadow-xl transition-shadow duration-300">
+                                <p class="font-medium mt-2">Моя геройская академия</p>
+                            </a>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://myanimelist.net/anime/30279/Death_Parade" target="_blank">
+                                <img src="assets/proxy-image (21).jpg" class="anime-poster cursor-pointer hover:shadow-xl transition-shadow duration-300">
+                                <p class="font-medium mt-2">Смертельный парад</p>
+                            </a>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://myanimelist.net/anime/33050/Re_Creators" target="_blank">
+                                <img src="assets/proxy-image (22).jpg" class="anime-poster cursor-pointer hover:shadow-xl transition-shadow duration-300">
+                                <p class="font-medium mt-2">Резеро</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item left">
+                <div class="timeline-point"></div>
+                <div class="timeline-content card">
+                    <h3 class="text-2xl font-semibold text-center mb-4">Музыкальный плейлист и творчество</h3>
+                    <p class="text-gray-600 mb-6 text-center">
+                        Музыка — это мой главный источник вдохновения. Я не только слушаю, но и сам занимаюсь вокалом и игрой на фортепиано. Это помогает мне выразить свои мысли и чувства, а также развивает креативность, необходимую для программирования.
+                    </p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>**Любимые жанры:** J-pop, J-rock, K-pop, саундтреки из аниме.</li>
+                        <li>**Любимые исполнители:** RADWIMPS, ONE OK ROCK, ZUTOMAYO.</li>
+                        <li>**Платформы:** <a href="https://spotify.com" target="_blank" class="text-blue-600 hover:underline">Spotify</a>, <a href="https://youtube.com" target="_blank" class="text-blue-600 hover:underline">YouTube Music</a>.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="timeline-point"></div>
+                <div class="timeline-content card">
+                    <h3 class="text-2xl font-semibold text-center mb-4">Книги, игры и другие увлечения</h3>
+                    <p class="text-gray-600 mb-6 text-center">
+                        Помимо цифровых миров, я люблю погружаться в книги и игры. Они расширяют моё мировоззрение и помогают отвлечься. Шахматы, например, учат стратегическому мышлению, что полезно и в работе.
+                    </p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>**Любимые книги:** «Королевская битва» Косюна Таками, «Дорога» Кормака Маккарти.</li>
+                        <li>**Любимые игры:** <span class="font-bold">Elden Ring</span>, <span class="font-bold">Persona 5</span>, <span class="font-bold">Hades</span>.</li>
+                        <li>**Сайты для игр:** <a href="https://twitch.tv/ventieRavelle" target="_blank" class="text-blue-600 hover:underline">Twitch</a>.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+        <div class="section-divider"></div>
+
+        <section id="contact" class="contact-section">
+            <h2>Контакты</h2>
+            <form class="contact-form mx-auto" id="contactForm" autocomplete="off">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button class="btn-glass" type="submit">Отправить</button>
+                <div class="contact-success" id="contactSuccess" style="display:none;">Спасибо за сообщение!</div>
+            </form>
+        </section>
+    </main>
+
+    <div class="section-divider" style="margin-top: 50px;"></div>
+
+   <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <div class="logo"><i class="fa-solid fa-meteor"></i>Ventie</div>
+                <p>Здесь нет бюрократии и десятков отделов. Есть только полная независимость, личная ответственность и бескомпромиссная преданность делу, чтобы предоставить вам инфраструктуру, которую я создал сам, с нуля, для себя и для вас.</p>
+                <div class="footer-social-links">
+                    <a href="https://github.com/ventieRavelle" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/ventieRavelle" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/ventieRavelle" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://t.me/ventieRavelle" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Навигация</h4>
+                <a href="index.html">Главная</a>
+            <a href="projects.html" target="_blank">Проекты</a>
+            <a href="lyrics.html" target="_blank">Песни</a>
+            <a href="download.html" target="_blank">Скачать</a>
+            <a href="system.html" target="_blank">Детали</a>
+            </div>
+            <div class="footer-col">
+                <h4>Сообщество</h4>
+                <a href="https://t.me/your_main_channel" target="_blank">Основной канал в Telegram</a>
+                <a href="https://t.me/your_dev_channel" target="_blank">Канал по разработке</a>
+                <a href="https://t.me/your_art_channel" target="_blank">Канал по творчеству</a>
+                <a href="https://discord.gg/VDbdgjZx5W" target="_blank">Discord-сервер</a>
+            </div>
+            <div class="footer-col">
+                <h4>Контакты</h4>
+                <p>Email: <a href="mailto:yVentieRavelle@gmail.com">VentieRavelle@gmail.com</a></p>
+                <p>Телефон: <a href="tel:+77711357163">+7 771 135 7163</a></p>
+                <p>Адрес: Annecy, France</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2025 Ventie. Все права защищены.
+        </div>
+    </footer>
+
+    <button id="theme-toggle" class="utility-btn" title="Переключить тему"><i class="fas fa-moon"></i></button>
+    <button id="scrollTopBtn" class="utility-btn"><i class="fas fa-arrow-up"></i></button>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js" defer></script>
+    <script src="js/about.js" defer></script>
+</body>
+
+</html>
+

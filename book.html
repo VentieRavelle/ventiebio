@@ -1,0 +1,362 @@
+<!DOCTYPE html> 
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style/book.css"/>
+     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+    <body>
+    <header>
+    <div class="logo" style="display:flex; align-items:center; gap:8px; font-weight:700; font-size:1.5rem; color:#000;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 64 64" fill="none" stroke="#000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M2 12 L30 4 L30 60 L2 52 Z" fill="#fff" stroke="#000"/>
+    <path d="M62 12 L34 4 L34 60 L62 52 Z" fill="#fff" stroke="#000"/>
+    <line x1="32" y1="4" x2="32" y2="60" stroke="#000" stroke-width="3"/>
+  </svg>
+  Библиотека
+</div>
+        <nav>
+           <a href="index.html">Главная</a>
+            <a href="about.html">Обо мне</a>
+            <a href="projects.html">Проекты</a>
+            <a href="lyrics.html">Песни</a>
+            <a href="download.html">Скачать</a>
+        </nav>
+        <div class="app-menu-container">
+  <button id="app-menu-toggle" class="app-menu-toggle-btn" title="Меню приложений">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+        <circle cx="5" cy="5" r="2" />
+        <circle cx="12" cy="5" r="2" />
+        <circle cx="19" cy="5" r="2" />
+        <circle cx="5" cy="12" r="2" />
+        <circle cx="12" cy="12" r="2" />
+        <circle cx="19" cy="12" r="2" />
+        <circle cx="5" cy="19" r="2" />
+        <circle cx="12" cy="19" r="2" />
+        <circle cx="19" cy="19" r="2" />
+  </svg>
+</button>
+<div id="app-menu" class="app-menu-dropdown">
+    <div class="app-menu-grid">
+        <a href="https://liria.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Liria.jpg" alt="Liria icon" class="app-icon">
+            <span class="app-name">Liria</span>
+        </a>
+        <a href="https://Akirae.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Akirae.jpg" alt="Akirae icon" class="app-icon">
+            <span class="app-name">Akirae</span>
+        </a>
+        <a href="https://Checkm8.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Checkm8.jpg" alt="Checkm8 icon" class="app-icon">
+            <span class="app-name">Checkm8</span>
+        </a>
+        
+        <a href="https://orionengine.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Orion.jpg" alt="Desmusic icon" class="app-icon">
+            <span class="app-name">Orion</span>
+        </a>
+        <a href="https://Liora.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Liora.jpg" alt="Liora icon" class="app-icon">
+            <span class="app-name">Liora</span>
+        </a>
+        <a href="https://Alarium.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Alarium.jpg" alt="EmojisS icon" class="app-icon">
+            <span class="app-name">Alarium</span>
+        </a>
+        
+        <a href="https://vektrion.vercel.app" class="app-item">
+            <img src="assets/Vektrion.jpg" alt="VektrionOS icon" class="app-icon">
+            <span class="app-name">VektrionOS</span>
+        </a>
+        <a href="https://vibra.vercel.app" class="app-item">
+            <img src="assets/Vibra.jpg" alt="Vibra icon" class="app-icon">
+            <span class="app-name">Vibra</span>
+        </a>
+        <a href="https://aetheria.vercel.app" class="app-item">
+            <img src="assets/Aetheria.jpg" alt="Aetheria icon" class="app-icon">
+            <span class="app-name">Aetheria</span>
+        </a>
+        <a href="https://Akiraebot.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Akiraebot.jpg" alt="Liria icon" class="app-icon">
+            <span class="app-name">Akiraebot</span>
+        </a>
+        <a href="https://animewiki.vercel.app" target="_blank" class="app-item">
+            <img src="assets/animewiki.jpg" alt="Liria icon" class="app-icon">
+            <span class="app-name">Animewiki</span>
+        </a>
+        <a href="https://oClock.vercel.app" target="_blank" class="app-item">
+            <img src="assets/Clock.jpg" alt="Liria icon" class="app-icon">
+            <span class="app-name">Clock</span>
+        </a>
+        <a href="https://aestris.vercel.app" target="_blank" class="app-item">
+            <img src="assets/aestris.jpg" alt="Liria icon" class="app-icon">
+            <span class="app-name">Aestris</span>
+        </a>
+        <a href="https://desmusic.vercel.app" target="_blank" class="app-item">
+            <img src="assets/desmusic.jpg" alt="Liria icon" class="app-icon">
+            <span class="app-name">Desmusic</span>
+        </a>
+        <a href="https://inkspire.vercel.app" target="_blank" class="app-item">
+            <img src="assets/inkspire.jpg" alt="Inkspire icon" class="app-icon">
+            <span class="app-name">Inkspire</span>
+        </a>
+        <a href="https://tracekit.vercel.app" target="_blank" class="app-item">
+            <img src="assets/tracekit.jpg" alt="Tracekit icon" class="app-icon">
+            <span class="app-name">Tracekit</span>
+        </a>
+    </div>
+</div>
+    </header>
+
+  <section class="hero">
+        <div class="hero-content">
+            <div class="avatar-container">
+                <img id="avatar-image" src="assets/gif1.gif" alt="Фото Ventie">
+                <button class="avatar-btn" id="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="avatar-btn" id="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+                  <h1>🫧 Veͥntiͣeͫ 𖤓 Rͥaveͦllͭe 🫧</h1>
+                <p id="typewriter-text"></p>
+            <div class="social-links">
+                  <a href="https://github.com/ventieRavelle" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/ventieRavelle" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/ventieRavelle" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://t.me/ventieRavelle" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
+                    <a href="https://www.instagram.com/ventieRavelle" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/ventieRavelle" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.tiktok.com/@ventieRavelle" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+    <div class="library-info">
+ <span>📚 В библиотеке: <strong>12 книг</strong></span>
+    </div>
+</section>
+
+ <div id="avatar-selection-modal" class="modal">
+
+         <div class="modal-content">
+            <span class="close-btn close-avatar-modal-btn">&times;</span>
+            <h2>Выберите аватар</h2>
+<div class="filter-controls">
+    <button class="filter-btn active" data-type="static">Аватарки</button>
+    <button class="filter-btn" data-type="gif">GIFы</button>
+</div>
+            <div id="avatar-grid">
+            </div>
+        </div>
+    </div>
+
+<section>
+  <div class="bookshelf">
+    <div class="books">
+      <div class="book" 
+      style="--bg-image: url('/assets/theshining.jpg');"
+      data-title="Сияние"
+      data-author="Стивен Кинг"
+      data-year="1977"
+      data-genre="horror,thriller"
+      data-lang="Английский"
+      data-pages="447"
+      data-isbn="978-0450040184"
+      data-desc="Психологический хоррор о писателе, который сходит с ума в отдалённом отеле зимой.">
+</div>
+<div class="book"
+      style="--bg-image: url('/assets/tolkin.jpg');"
+      data-title="Властелин колец"
+      data-author="Дж. Р. Р. Толкин"
+      data-year="1954"
+      data-genre="fantasy,adventure"
+      data-lang="Английский"
+      data-pages="1216"
+      data-isbn="978-0618640157"
+      data-desc="Эпическое фэнтези о борьбе за уничтожение Кольца Всевластья.">
+</div>
+
+      <div class="book"
+            style="--bg-image: url('/assets/gameofthrones.jpg');"
+            data-title="Игра престолов"
+            data-author="Джордж Р. Р. Мартин"
+        data-year="1996"
+      data-genre="fantasy"
+      data-lang="Английский"
+      data-pages="864"
+      data-isbn=" 978-5171144630"
+            data-desc="Политические интриги и война за власть в вымышленном мире Вестероса.">
+      </div>
+      <div class="book"
+            style="--bg-image: url('/assets/harry1.webp');"
+            data-title="Гарри Поттер и философский камень"
+            data-author="Дж. К. Роулинг"
+      data-year="1997"
+      data-genre="fantasy,adventure"
+      data-lang="Английский"
+      data-pages="223"
+      data-isbn="978-0747532699"
+            data-desc="Приключения юного волшебника Гарри Поттера в школе Хогвартс.">
+      </div>
+    </div>
+  </div>
+
+  <div class="bookshelf">
+    <div class="books">
+  <div class="book" 
+            style="--bg-image: url('/assets/malazan1.jpg');"
+            data-title="Сад луны:Малазанская книга павших"
+            data-author="Стивен Эриксен"
+  data-year="1999"
+      data-genre="epic fantasy"
+      data-lang="Английский"
+      data-pages="752"
+      data-isbn="978-0765348787"
+            data-desc="Огромные легионы богов, магов, людей, драконов и всевозможных существ разыгрывают судьбу Малазанской империи в этой первой книге крупной эпической фэнтезийной серии Стивена Эриксона.">
+  </div>
+      <div class="book" 
+    style="--bg-image: url('/assets/aliceinwonderland.jpeg');"
+      data-title="Алиса в Стране чудес"
+      data-author="Льюис Кэрролл"
+      data-year="1865"
+      data-genre="fantasy,children"
+      data-lang="Английский"
+      data-pages="192"
+      data-isbn="978-1503250212"
+      data-desc="Классическая сказочная история о приключениях Алисы в волшебной стране, полном странных существ и абсурдных ситуаций.">
+</div>
+    <div class="book" 
+        style="--bg-image: url('/assets/aliceonthemirror.jpeg');"
+      data-title="Алиса в Зазеркалье"
+      data-author="Льюис Кэрролл"
+      data-year="1871"
+      data-genre="fantasy,children"
+      data-lang="Английский"
+      data-pages="228"
+      data-isbn="978-1503250229"
+      data-desc="Продолжение приключений Алисы, на этот раз в мире за Зеркалом, полном шахматных фигур и причудливых персонажей.">
+</div>
+    <div class="book" 
+      style="--bg-image: url('/assets/neyromant.jpeg');"
+      data-title="Нейромант"
+      data-author="Уильям Гибсон"
+      data-year="1984"
+      data-genre="cyberpunk,science fiction"
+      data-lang="Английский"
+      data-pages="271"
+      data-isbn="978-0441569595"
+      data-desc="Классика киберпанка о хакере, который получает опасное задание в виртуальном и реальном мирах.">
+</div>
+  </div>
+</div>
+
+<div class="bookshelf">
+  <div class="books">
+    <div class="book" 
+      style="--bg-image: url('/assets/nameofthewind.jpeg');"
+      data-title="Имя ветра"
+      data-author="Патрик Ротфусс"
+      data-year="2007"
+      data-genre="fantasy,adventure"
+      data-lang="Английский"
+      data-pages="662"
+      data-isbn="978-0756404741"
+      data-desc="Первая часть истории Квоута — легендарного мага, музыканта и искателя приключений.">
+</div>
+    <div class="book" 
+      style="--bg-image: url('/assets/ontheend.jpeg');"
+      data-title="Океан в конце дороги"
+      data-author="Нил Гейман"
+      data-year="2013"
+      data-genre="fantasy,magical realism"
+      data-lang="Английский"
+      data-pages="181"
+      data-isbn="978-0062255655"
+      data-desc="Мистическая история о человеке, вернувшемся в детство и встретившем магические силы, скрывающиеся в маленькой деревне.">
+</div>
+
+      <div class="book" 
+      style="--bg-image: url('/assets/darktower.jpeg');"
+      data-title="Тёмная башня"
+      data-author="Стивен Кинг"
+      data-year="1982"
+      data-genre="fantasy,western,horror"
+      data-lang="Английский"
+      data-pages="224"
+      data-isbn="978-0451457998"
+      data-desc="Первая книга цикла о Роланде — стрелке, который путешествует по постапокалиптическому миру в поисках Тёмной башни.">
+</div>
+          <div class="book" 
+        style="--bg-image: url('/assets/shadowandbone.jpeg');"
+      data-title="Тень и кость"
+      data-author="Ли Бардуго"
+      data-year="2012"
+      data-genre="fantasy,romance"
+      data-lang="Английский"
+      data-pages="358"
+      data-isbn="978-0805094596"
+      data-desc="Первая книга Гриша-трилогии, где девушка открывает в себе магическую силу, способную спасти страну.">
+</div>
+  </div>
+</div>
+
+  <div class="overlay" id="overlay">
+  <div class="modal" id="modal">
+    <span class="close-btn" id="closeBtn">&times;</span>
+    <img src="" alt="Обложка книги" id="modalImg" />
+    <div class="modal-content">
+      <h2 id="modalTitle"></h2>
+      <h4 id="modalAuthor"></h4>
+      <p id="modalDesc"></p>
+      <p><strong>Год:</strong> <span id="modalYear"></span></p>
+      <p><strong>Жанр:</strong> <span id="modalGenre"></span></p>
+      <p><strong>Страниц:</strong> <span id="modalPages"></span></p>
+    </div>
+  </div>
+</div>
+  </section>
+
+
+   <div class="section-divider" style="margin-top: 50px;"></div>
+ <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <div class="logo"><i class="fa-solid fa-meteor"></i>Ventie</div>
+                <p>Здесь нет бюрократии и десятков отделов. Есть только полная независимость, личная ответственность и бескомпромиссная преданность делу, чтобы предоставить вам инфраструктуру, которую я создал сам, с нуля, для себя и для вас.</p>
+                <div class="footer-social-links">
+                    <a href="https://github.com/ventieRavelle" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/ventieRavelle" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/ventieRavelle" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://t.me/ventieRavelle" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Навигация</h4>
+                <a href="index.html">Главная</a>
+            <a href="projects.html" target="_blank">Проекты</a>
+            <a href="lyrics.html" target="_blank">Песни</a>
+            <a href="download.html" target="_blank">Скачать</a>
+            <a href="system.html" target="_blank">Детали</a>
+            </div>
+            <div class="footer-col">
+                <h4>Сообщество</h4>
+                <a href="https://t.me/your_main_channel" target="_blank">Основной канал в Telegram</a>
+                <a href="https://t.me/your_dev_channel" target="_blank">Канал по разработке</a>
+                <a href="https://t.me/your_art_channel" target="_blank">Канал по творчеству</a>
+                <a href="https://discord.gg/VDbdgjZx5W" target="_blank">Discord-сервер</a>
+            </div>
+            <div class="footer-col">
+                <h4>Контакты</h4>
+                <p>Email: <a href="mailto:yVentieRavelle@gmail.com">VentieRavelle@gmail.com</a></p>
+                <p>Телефон: <a href="tel:+77711357163">+7 771 135 7163</a></p>
+                <p>Адрес: Annecy, France</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2025 Ventie. Все права защищены.
+        </div>
+    </footer>
+    <button id="theme-toggle" class="utility-btn" title="Переключить тему"><i class="fas fa-moon"></i></button>
+    <button id="scrollTopBtn" class="utility-btn"><i class="fas fa-arrow-up"></i></button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js" defer></script>
+<script src="js/book.js" defer></script>
+</body>
+
+</html>
